@@ -1,3 +1,17 @@
+"""This module implements a very VERY simple command-line web client without any built in tools above the built-in socket module.
+Currently only handles GET requests and HTTP/1.1, but has the option for expansion (see urlRequestBuild definition variables).
+Does not handle any redirects, simply returns what is given.
+
+Problem statement from www.reddit.com/r/dailyprogrammer.
+Challenge #344 [Hard] Write a Web Client
+https://www.reddit.com/r/dailyprogrammer/comments/7jzy8k/20171215_challenge_344_hard_write_a_web_client/
+
+Submitted 1/26/2018
+"""
+
+__version__ = '0.0'
+__author__ = 'Ilan Cohn'
+
 import socket
 
 def main():
